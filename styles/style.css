@@ -18,11 +18,14 @@ reset styles
     --orange: #FB8200;
 }
 
+
+
 .container{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 1rem;
+
+
 }
 
 
@@ -264,7 +267,7 @@ footer styles
 
 
 .footer-container{
-    padding: 3.15rem 0;
+    padding: 3.15rem 0px;
     text-align: center;
 }
 
@@ -287,4 +290,48 @@ footer styles
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+
+
+/* -----------------
+    media queries
+-------------------- */
+
+@media only screen and (max-width:668px){
+
+
+    header,main{
+        padding: 0 1rem;
+    }
+
+
+    .navbar{
+    padding: 2rem 0 2rem 0;
+    }
+
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navbar .navbar-options{
+        margin-top: 1rem;
+    }
+    .banner, .join-banner{
+        flex-direction: column-reverse;
+    }
+    .banner .banner-text{
+        text-align: center;
+    }
+    .collection-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .join-details{
+        text-align: center;
+    }
+
+    .footer-wrapper{
+
+    }
+
+
 }
