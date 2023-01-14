@@ -1,0 +1,131 @@
+/* --------------
+reset styles 
+--------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --primary-color: #E02C6D;
+    --secondary-color: #3A3A3A;
+    --tertiary-color: #0A0826;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.btn-primary{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 2.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1rem 0;
+
+}
+
+
+/*--------------------
+    navbar styles
+----------------------*/
+
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.navbar-title{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-options{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.navbar .navbar-options a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.fa-magnifying-glass, .fa-cart-shopping{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+
+/* -------------------
+    banner styles
+-------------------- */
+
+.banner{
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-between;
+
+}
+
+.banner img{
+    width: 100%;
+    max-width: 28rem;
+    background-image: url("../images/image-background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+
+.banner .banner-text .banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    line-height: 4.3rem;
+}
+
+.banner .banner-text .banner-subtitle{
+    font-size: 1rem;
+    font-weight: 600px;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+
+}
+
+
+
+/* -------------------
+    logos styles
+-------------------- */
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    gap: 3.75rem;
+    flex-wrap: wrap;
+    padding: 2.75rem 0;
+    border-top: 2px solid #4444441a ;
+    border-bottom: 2px solid #4444441a ;
+}
+
+
+
+
