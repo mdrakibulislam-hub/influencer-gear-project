@@ -62,13 +62,13 @@ reset styles
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    gap: 1rem;
+    gap: 2.125rem;
 }
 
 .navbar .navbar-options a{
     text-decoration: none;
     color: var(--secondary-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
 }
 
@@ -253,4 +253,33 @@ footer styles
 ----------------------- */
 
 .footer-wrapper{
-background-color: var(--tertiary-color);}
+    background-color: var(--tertiary-color);
+    margin-top: 6.25rem;
+}
+
+
+.footer-container{
+    padding: 3.15rem 0;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer-subtitle{
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 0.5rem;
+}
+
+.footer-icon{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
